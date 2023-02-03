@@ -28,7 +28,7 @@ fruits_set_ds = {'Apples', 'Oranges', 'Mango'}
 # Check if in set
 print('Apples' in fruits_set_ds)
 
-# Add to set
+# Add duplicate
 fruits_set_ds.add('Grape')
  
 print(fruits_set_ds
