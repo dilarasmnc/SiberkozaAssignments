@@ -1,15 +1,20 @@
-# A variable is a container for a value, which can be of various types
+a = 1           # int
+b = 2.5         # float
+name = 'Dilara' # str
+is_true = True  # bool
 
-'''
-This is a 
-multiline comment
-or docstring (used to define a functions purpose)
-can be single or double quotes
-'''
+# Multiple assignment
+a, b, name, is_true = (1, 2.5, 'Dilara', True)
 
-"""
-VARIABLE RULES:
-  - Variable names are case sensitive (name and NAME are different variables)
-  - Must start with a letter or an underscore
-  - Can have numbers but can not start with one
-"""
+# Basic math
+x = a + b
+print(a, b, name, is_true, x)
+
+# Casting
+a = str(a)
+b = int(b)
+c = float(b)
+
+print(type(a))
+print(type(b), b)
+print(type(c)) 
