@@ -1,20 +1,21 @@
-a = 1           # int
-b = 2.5         # float
-name = 'Dilara' # str
-is_true = True  # bool
+x_ds = 1           # int
+y_ds= 2.5         # float
+name_ds = 'Dilara' # str
+is_cool_ds = True  # bool
 
 # Multiple assignment
-a, b, name, is_true = (1, 2.5, 'Dilara', True)
+a_ds, b_ds, n, is_cool_ds = (1, 2.5, 'Dilara', True)
+
 
 # Basic math
-x = a + b
-print(a, b, name, is_true, x)
+a_ds = x_ds + y_ds
+print(x_ds, y_ds, name_ds_ds, is_cool_ds, a_ds)
 
 # Casting
-a = str(a)
-b = int(b)
-c = float(b)
+x_ds = str(x_ds)
+y_ds = int(y_ds)
+z_ds = float(y_ds)
 
-print(type(a))
-print(type(b), b)
-print(type(c)) 
+print(type(x_ds))
+print(type(y_ds), y_ds)
+print(type(z_ds)) 
