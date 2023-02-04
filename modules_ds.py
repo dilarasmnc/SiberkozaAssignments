@@ -44,3 +44,14 @@ from camelcase import CamelCase
 
 c_ds = CamelCase()
 print(c_ds.hump('hello there world'))
+
+# Import custom modul
+import validator
+from validator import validate_email
+
+email_ds = 'test@test.com'
+if validate_email(email_ds):
+  print('Email is valid')
+else:
+  print('Email is bad')
+  
