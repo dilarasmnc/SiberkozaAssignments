@@ -3,4 +3,4 @@ def sayHello(name ='Sam'):
   print(f'Hello {name}')
   
   
-sayHello('Dilara Samancı'
+sayHello()
