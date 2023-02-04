@@ -1,2 +1,5 @@
-# A class is like a blueprint for creating objects. An object has properties and methods(functions) associated with it. Almost everything in Python is an object
-
+# Create class
+class User_ds:
+  # Constructor
+  def __init__(self_ds, name_ds):
+    self_ds.name = name_ds
