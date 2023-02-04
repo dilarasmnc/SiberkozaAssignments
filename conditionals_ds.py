@@ -30,10 +30,10 @@ if  x_ds > 2:
 # Logical operators (and, or, not) 
 
 # and
-if  x_ds > 2 and x <= 10:
+if  x_ds > 2 and x_ds <= 10:
      print(f'{x_ds} is greather than 2 and less than or equal to 10')
 # or
-if  x_ds > 2 or x <= 10:
+if  x_ds > 2 or x_ds <= 10:
      print(f'{x_ds} is greather than 2 or less than or equal to 10')
 
 # not
