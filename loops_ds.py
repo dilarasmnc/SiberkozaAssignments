@@ -30,6 +30,6 @@ for i_ds range(0, 11):
 count_ds = 0
 while count_ds <= 10:
   print(f'Count: {count_ds}')
-  count += 1
+  count_ds += 1
 
   
