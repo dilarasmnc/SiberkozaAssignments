@@ -11,12 +11,12 @@ print('Opening Mode: ', myFile_ds.mode)
 # Write to file
 myFile_ds.write('I Love Python')
 myFile_ds.write(' and Java')
-myFile.close()
+myFile_ds.close()
 
 # Append to file
 myFile_ds = open('myfile_ds.txt', 'a')
 myFile_ds.write(' I also like PHP')
-myFile.close()
+myFile_ds.close()
 
 # Read from file
 myFile_ds = open('myfile_ds.txt', 'r+')
